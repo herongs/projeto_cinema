@@ -161,13 +161,11 @@ int menuCompra(){
     printf("--------------------\n");
     printf("1 - Imprime opcoes  \n");
     printf("--------------------\n");
-    printf("2 - Finalizar Compra\n");
+    printf("2 - Realizar Compra \n");
     printf("--------------------\n");
-    printf("3 - Trocar Poltrona \n");
+    printf("3 - Cancelar Compra\n");
     printf("--------------------\n");
-    printf("4 - Retirar Poltrona\n");
-    printf("--------------------\n");
-    printf("-   5 - SAIR       -\n");
+    printf("-   0 - SAIR       -\n");
     printf("--------------------\n\n");
     printf("Escolha uma opcao: ");
     scanf("%d", &compra);
@@ -233,7 +231,7 @@ void imprimePoltronas(struct Poltrona cadeiras[LIN][COL]){
         else if (cadeiras[i][j].status == 2)
             printf(" C ");
         }
-        printf("\n");
+        printf("\n\n");
     }
 }
 
@@ -270,6 +268,7 @@ int main()
                     break;
                 default:
                     printf("Opcao invalida, digite novamente");
+                    system("pause");
                     break;
                     };
                 }while (reserva != 0);
@@ -280,6 +279,7 @@ int main()
                 switch(compra){
                 case 1:
                     imprimePoltronas(cadeiras);
+                    system("pause");
                     break;
                 case 2:
                     imprimePoltronas(cadeiras);
@@ -290,15 +290,16 @@ int main()
                     cancelaCompra(cadeiras);
                     break;
                 case 0:
-
                     break;
                 default:
                     printf("Opcao invalida, digite novamente");
+                    system("pause");
                     break;
                     };
-                }while (reserva != 0);
+                }while (compra != 0);
             break;
         case 0:
+            printf("\n\nObrigado pela preferencia. VOLTE SEMPRE!!\n\n");
             return;
             break;
         default:
