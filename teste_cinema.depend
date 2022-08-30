@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1661806991 source:d:\user\desktop\curso biopark connect\exercicios algoritmos\teste_cinema\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
