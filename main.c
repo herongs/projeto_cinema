@@ -267,7 +267,7 @@ int main()
                 case 0:
                     break;
                 default:
-                    printf("Opcao invalida, digite novamente");
+                    printf("Opcao invalida, digite novamente\n");
                     system("pause");
                     break;
                     };
@@ -292,7 +292,7 @@ int main()
                 case 0:
                     break;
                 default:
-                    printf("Opcao invalida, digite novamente");
+                    printf("Opcao invalida, digite novamente\n");
                     system("pause");
                     break;
                     };
