@@ -4,8 +4,20 @@
 	<stdlib.h>
 	<string.h>
 
-1661824443 source:d:\user\desktop\curso biopark connect\exercicios algoritmos\projeto_cinema\main.c
+1662406079 source:d:\user\desktop\curso biopark connect\exercicios algoritmos\projeto_cinema\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	"biblioteca.h"
+
+1662406461 d:\user\desktop\curso biopark connect\exercicios algoritmos\projeto_cinema\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"colors.h"
+
+1662408686 source:d:\user\desktop\curso biopark connect\exercicios algoritmos\projeto_cinema\biblioteca.c
+	"biblioteca.h"
+
+1662405432 d:\user\desktop\curso biopark connect\exercicios algoritmos\projeto_cinema\colors.h
 
