@@ -7,8 +7,6 @@ void telaInicial(){
     printf("----SEJA BEM VINDO----\n");
     printf("----------------------\n");
     printf("----------------------\n\n");
-
-
     system("pause");
 }
 
